@@ -2,6 +2,13 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QCoreApplication>
+#include <QSqlDatabase>
+#include <QSqlError>
+#include <QSqlQuery>
+#include <QSettings>
+#include <QMessageBox>
+#include <QDebug>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
