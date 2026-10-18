@@ -18,6 +18,12 @@ loginscreen::loginscreen(QWidget *parent)
     nomEdit->setMinimumWidth(200);
     mdp->setMinimumWidth(200);
     mdp->setEchoMode(QLineEdit::Password);
+    nomEdit->setMaximumHeight(40);
+    nomEdit->setMinimumHeight(20);
+    mdp->setMaximumHeight(50);
+    mdp->setMinimumHeight(20);
+    mdp->setStyleSheet("padding: 5 10;");
+    nomEdit->setStyleSheet("padding: 5 10;");
     auto *btnlogin = new QPushButton("Se connecter");
 
     auto *form = new QFormLayout;

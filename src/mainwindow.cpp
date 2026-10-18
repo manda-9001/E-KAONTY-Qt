@@ -13,3 +13,9 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_btnsold_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->Solde);
+}
+
